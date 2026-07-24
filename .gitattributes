@@ -1,0 +1,7 @@
+* text=auto
+*.flw binary
+*.cmp binary
+*.str binary
+*.bffnt binary
+*.bcwav binary
+*.bcstm binary
