@@ -1,12 +1,12 @@
-﻿# Stella Glow 한국어 패치 v29
+﻿# Stella Glow 한국어 패치 v30
 
 Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 한국어 LayeredFS 패치입니다.
 
 - 대상 Title ID: `0004000000173700`
-- 최신 버전: **v29**
+- 최신 버전: **v30**
 - 기준 원본 CIA SHA-256: `9388921B8209F8F2741916335A33EDF0D661BE8F1450CAF38314D7EF309437C9`
-- 패치 파일: 1,455개
-- 패치 데이터: 약 20.2 MB
+- 패치 파일: 1,461개
+- 패치 데이터: 약 20.6 MB
 - 완성 CIA와 원본 게임 데이터 전체는 포함하지 않습니다.
 
 ## 지원 범위
@@ -15,7 +15,9 @@ Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 �
 - 인물·지명·아이템·스킬·프로필 문자열 교정
 - 한글 폰트와 문자 폭·명도 조정
 - 메뉴·전투·상점·저장 화면 등 안전한 범위의 UI 한국어화
-- v29까지 확인된 오역, 표기 통일, 숫자·기호 간격 및 UI 잘림 개선
+- v30까지 확인된 오역, 표기 통일, 숫자·기호 간격 및 UI 잘림 개선
+- 전투 상태·시작·결과·세계 지도용 이미지 문자열 54개 추가 한국어화
+- 상태 아이콘의 색과 윤곽을 보존하고 `바람+`, `땅+`의 영문 잔여 획 제거
 
 ## Luma3DS 설치
 
@@ -48,7 +50,7 @@ PowerShell에서 다음 명령을 실행합니다.
 powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 ```
 
-검증기는 `metadata/patch_manifest_v29.json`에 기록된 1,455개 파일의 크기와 SHA-256을 확인합니다.
+검증기는 `metadata/patch_manifest_v30.json`에 기록된 1,461개 파일의 크기와 SHA-256을 확인합니다.
 
 ## 알려진 사항
 
@@ -60,7 +62,7 @@ powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 
 ```text
 luma/titles/0004000000173700/romfs/  패치 파일
-metadata/patch_manifest_v29.json    파일별 원본/패치 해시
+metadata/patch_manifest_v30.json    파일별 원본/패치 해시
 verify_patch.ps1                    패치 무결성 검사
 CHANGELOG.md                        변경 기록
 ```

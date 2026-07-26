@@ -1,13 +1,13 @@
 {
   "schema": "stella-glow-ko-layeredfs-patch/v1",
-  "version": "v29",
-  "created_utc": "2026-07-24T23:34:30.106988+00:00",
+  "version": "v30",
+  "created_utc": "2026-07-26T02:04:26.484541+00:00",
   "title_id": "0004000000173700",
   "target": "Stella Glow English Undub (CTR-P-BS3E)",
   "source_romfs_file_count": 26997,
   "target_romfs_file_count": 26997,
-  "changed_file_count": 1455,
-  "patch_payload_bytes": 20215803,
+  "changed_file_count": 1461,
+  "patch_payload_bytes": 20636826,
   "removed_files": [],
   "files": [
     {
@@ -9647,28 +9647,28 @@
       "source_bytes": 549732,
       "source_sha256": "6121550D81D3712D6CAA12C350D26D5145A0DE7813F2EAA37995147C0F6FFDA8",
       "patched_bytes": 1070980,
-      "patched_sha256": "2A3E400B062927F1AB264165BF0049C10F245360BA80BB420D91BB0BA9E7347E"
+      "patched_sha256": "AC078820A30D4FEF3D618C3192F3B57373246238BA5A6CCE9402AB85CD159D2F"
     },
     {
       "path": "font/_font_common2.bffnt",
       "source_bytes": 549732,
       "source_sha256": "1A05C773B4C5EF8D213F5F5597074791F8D592F926BFA849FC4B7474156FBD3B",
       "patched_bytes": 1070980,
-      "patched_sha256": "2A3E400B062927F1AB264165BF0049C10F245360BA80BB420D91BB0BA9E7347E"
+      "patched_sha256": "AC078820A30D4FEF3D618C3192F3B57373246238BA5A6CCE9402AB85CD159D2F"
     },
     {
       "path": "font/font_common.bffnt",
       "source_bytes": 271244,
       "source_sha256": "7920651CF7C0335302A4688E83E7D748C42FAD371FB539D604891CF8335DA47D",
       "patched_bytes": 546692,
-      "patched_sha256": "47CFA6B6C44E3E132616BF90DBCA4D937241A8756BACCD2AA40A13C2352FFDA0"
+      "patched_sha256": "BFD3CF6E59712D2F276B15EA5D222AE7F0D0D45DAF3B14AFF56F1624D79D5CAD"
     },
     {
       "path": "font/font_common2.bffnt",
       "source_bytes": 533388,
       "source_sha256": "C2316AB310A90399B14CB9B9FF119C2A179D08DA14D84BF9E331D164BC2C23CA",
       "patched_bytes": 546692,
-      "patched_sha256": "47CFA6B6C44E3E132616BF90DBCA4D937241A8756BACCD2AA40A13C2352FFDA0"
+      "patched_sha256": "BFD3CF6E59712D2F276B15EA5D222AE7F0D0D45DAF3B14AFF56F1624D79D5CAD"
     },
     {
       "path": "indicator/bar/bar_down.arc.cmp",
@@ -9681,8 +9681,8 @@
       "path": "indicator/bar/bar_talk.arc.cmp",
       "source_bytes": 12999,
       "source_sha256": "E28287203B13E473EC4D0C7E14D8E021A55F77E51CE646A450823F999A9FDE48",
-      "patched_bytes": 13193,
-      "patched_sha256": "C3E68673E67B703E75C643A4BE1AE76A1C7193D4BEE681FBDBEAA9E6C4E29ED8"
+      "patched_bytes": 13255,
+      "patched_sha256": "C21DBF8B67E7D93EEE4580A1B84BA427239AFA3104D4B3C3938430BA15B4DA92"
     },
     {
       "path": "indicator/bar/bar_work_front.arc.cmp",
@@ -9690,6 +9690,13 @@
       "source_sha256": "088D3B99E22558F2B3A41F5F4A1024AE2A9FF4C503D587052D8A7C24289A5181",
       "patched_bytes": 3530,
       "patched_sha256": "1717665B28BA1834352DD4D97403C724D8E85C735EE77080A6D80D51ADCEB1DE"
+    },
+    {
+      "path": "indicator/base/base_down.arc.cmp",
+      "source_bytes": 277923,
+      "source_sha256": "D3FCE30199C1D2C45B06656E49CEBCA8DEB3361B5E91DC78DF5C44B246EACF57",
+      "patched_bytes": 275149,
+      "patched_sha256": "6C2922D7BD68E1DC67545A6BFE1D728C6F5402CCF4EAFE61734E3B25FE903F2B"
     },
     {
       "path": "indicator/base/base_talk_down.arc.cmp",
@@ -9702,15 +9709,15 @@
       "path": "indicator/base/base_time.arc.cmp",
       "source_bytes": 121781,
       "source_sha256": "629E3A4C4517071F6AC632665491E93FBB672D32B7F14733AA016859036E573D",
-      "patched_bytes": 121590,
-      "patched_sha256": "FC282B605F19ED780A35AA32E6D4B25F2A72FD086418ADEDDB40F582D42C5E25"
+      "patched_bytes": 123113,
+      "patched_sha256": "2EEAD90DC9C3466F89330917D0563EA49FC39A90B68A7712C4CF77EED2722806"
     },
     {
       "path": "indicator/base/base_top_menu.arc.cmp",
       "source_bytes": 61774,
       "source_sha256": "17F817358E44CAE5277B4E46D12AC24E0AB5E1A34A339439EC2F05691F2D93B2",
-      "patched_bytes": 67022,
-      "patched_sha256": "81F9C366809C07755045C0862DAFB7A15E727F4CA46F154456ED014DE744403B"
+      "patched_bytes": 72922,
+      "patched_sha256": "C3FA1EE82F349E1972665240496831FE62028A89C35E4FF5496002434312BAD7"
     },
     {
       "path": "indicator/base/base_townmap.arc.cmp",
@@ -9730,22 +9737,22 @@
       "path": "indicator/base/time_free.arc.cmp",
       "source_bytes": 46949,
       "source_sha256": "A0961286285DA138D9C413F6C4D92BB075590F9EF92343655772B346761742C0",
-      "patched_bytes": 47578,
-      "patched_sha256": "8A73229D139CB00CB59C6E4D77461B3B9431C74FB56D13A8DE33CC03F8F9DA05"
+      "patched_bytes": 47973,
+      "patched_sha256": "5FDA753419E92D8A52E3CBCA33F750DC293028A7436AD73CF2F61F47E0B00576"
     },
     {
       "path": "indicator/base/time_free_end.arc.cmp",
       "source_bytes": 42994,
       "source_sha256": "A4E6AA9CAFC77B90037FC79930834A694BEFC021EA070D34AD7B5518E9D2ED3D",
-      "patched_bytes": 43790,
-      "patched_sha256": "B0D5307283C548AA2E6A71285F044E89329A39BB4382C0257F8E3859761927F1"
+      "patched_bytes": 44408,
+      "patched_sha256": "682F29AEA8A0DF4BF03D0315B63ED65F01D77E5FC77819573155C7B23A9FB030"
     },
     {
       "path": "indicator/base/time_mission.arc.cmp",
       "source_bytes": 47614,
       "source_sha256": "3B1EA0D8689C921C6A4436C15742B698B92A7FC982FE363F5F2A429BB33B11D1",
-      "patched_bytes": 48854,
-      "patched_sha256": "B6DDA98FE740EFFEF6DFC2782CB0C96536C195DF393A67255CD0FAB379AA98B5"
+      "patched_bytes": 47817,
+      "patched_sha256": "938E1606813615E3B00A3BF2E5AB8FEA665188BEF5E31F518E75856D9BD05AF6"
     },
     {
       "path": "indicator/base/worldmap.arc.cmp",
@@ -9758,8 +9765,8 @@
       "path": "indicator/battle_down/battle_down.arc.cmp",
       "source_bytes": 2298941,
       "source_sha256": "D1394EE50BE254FF2AACDAAE4F5C535607B8B2947E05CDD92C7E91E09F559BF1",
-      "patched_bytes": 2296422,
-      "patched_sha256": "7811D3050FE4D40D655EB83FB18B2B1D76BD9FD51CE3B063E565F36B92A6F37C"
+      "patched_bytes": 2297775,
+      "patched_sha256": "E5232D2CC5755A93C0B1CECE58069EED2A4CF9677DBF45931C0932E502826286"
     },
     {
       "path": "indicator/battle_down/battle_mission.arc.cmp",
@@ -9786,8 +9793,15 @@
       "path": "indicator/battle_up/battle_attack.arc.cmp",
       "source_bytes": 43774,
       "source_sha256": "72E764544273DB162F50F4F04134E228330FE359A73BF32C16E700BCA50B2B6C",
-      "patched_bytes": 44267,
-      "patched_sha256": "C375EEAF1B52717C34C70CEA7E37F485580BB0A26360459912F3F1AFF570B286"
+      "patched_bytes": 45149,
+      "patched_sha256": "ECF6D1CD6278786FBD0C024A4E8E9D637E6E575981CEEFE6144143134CF6BD6D"
+    },
+    {
+      "path": "indicator/battle_up/battle_badstatus.arc.cmp",
+      "source_bytes": 19782,
+      "source_sha256": "5EC1456B68EB9D78FDFC7DF6B0FA083616431935A5A17559152DB47BEB7EC79D",
+      "patched_bytes": 19555,
+      "patched_sha256": "5D6062E3D9FB4813D88EDAB601F1E79F7232F049057C54545873E706E28589A3"
     },
     {
       "path": "indicator/battle_up/battle_damage.arc.cmp",
@@ -9814,8 +9828,22 @@
       "path": "indicator/battle_up/battle_location_title.arc.cmp",
       "source_bytes": 220096,
       "source_sha256": "52288D437978ED3DD7C971632DA65116A0ED451AC04CB51A90ECFAA206EB511E",
-      "patched_bytes": 222257,
-      "patched_sha256": "8FA6288945FC8BCD9072514B2EB5E8786357A10C9180E6F702239D834BF0ED81"
+      "patched_bytes": 242674,
+      "patched_sha256": "22CF71E8E27D1B0C408E9841F929C681E9F8E4F1CE0CFB4A596F516DDB46AABC"
+    },
+    {
+      "path": "indicator/battle_up/battle_lose.arc.cmp",
+      "source_bytes": 15101,
+      "source_sha256": "C1232F99A5E419811D435D95F301BC7F548A3D9325532648B1AB66BE675E5870",
+      "patched_bytes": 15656,
+      "patched_sha256": "FE519CC571B48215E34DEB26F08031BCED7326EE3B75CA1B47F007F48B75D994"
+    },
+    {
+      "path": "indicator/battle_up/battle_pro_damage.arc.cmp",
+      "source_bytes": 18178,
+      "source_sha256": "E47DF808B3DB7045888FA9BE6D2362D3853776D948E057DAC018D6E3EC883CC5",
+      "patched_bytes": 23008,
+      "patched_sha256": "D4B3FC0B09B59249EF3DFEA4359B84A2313DCB540E61A50E6E8AF4BCE0F09A14"
     },
     {
       "path": "indicator/battle_up/battle_skilllist.arc.cmp",
@@ -9825,18 +9853,32 @@
       "patched_sha256": "101CF0B019407C039C32A6F8CED20B8F91D3418363019EAFFDD8E6C29D381142"
     },
     {
+      "path": "indicator/battle_up/battle_start.arc.cmp",
+      "source_bytes": 21271,
+      "source_sha256": "58BBFA3784E099B93C2367096DD14E50B70912E9D62FBCD38D87D3EF8B6DB62B",
+      "patched_bytes": 17717,
+      "patched_sha256": "40F986208291C8AB5D51EE1F62F171B52616E9637C2A827CFE18E0AA90E0807E"
+    },
+    {
       "path": "indicator/battle_up/battle_system.arc.cmp",
       "source_bytes": 30329,
       "source_sha256": "E944E5C77454872294665B214C1475F3E8DF8DB3382A11A4E4AFED95B8B94742",
-      "patched_bytes": 29497,
-      "patched_sha256": "090A6C4DDAD11E00058B51202C5277A51DBFD4C02E71E295CDB21905EB02A02D"
+      "patched_bytes": 30896,
+      "patched_sha256": "83373CBE404263EC60460FCE14C3A6F7C4512CB38E4ACEC17D2EE9F786472E9F"
     },
     {
       "path": "indicator/battle_up/battle_unit.arc.cmp",
       "source_bytes": 24404,
       "source_sha256": "4CAC7318852C2904B72D96B01DF3200423C2DD995BE4FC7DC54BFAF6CBDC464A",
-      "patched_bytes": 21809,
-      "patched_sha256": "E55AED06B201B0CFB569B4A0CCEC8155053F065BC536EBF9489C162768421764"
+      "patched_bytes": 22036,
+      "patched_sha256": "97B1E255AD3200B7CDD487121A09D37951C9D26A279150BA0C024EEA6168CFC2"
+    },
+    {
+      "path": "indicator/battle_up/battle_win.arc.cmp",
+      "source_bytes": 32635,
+      "source_sha256": "E0B1481448368A101BD857AFB74BFA8958129C0C7DB62D6AAE9B27F25CAAB8A9",
+      "patched_bytes": 34235,
+      "patched_sha256": "E2BE99F6EACD47AF15725D708EEC9A5C36672469A82B57E17217807E5F3E3CFA"
     },
     {
       "path": "indicator/common/battle_tab.arc.cmp",
@@ -9905,8 +9947,8 @@
       "path": "indicator/location_title/location_title_08.arc.cmp",
       "source_bytes": 206992,
       "source_sha256": "CB996DCC0E7C19D1EF5839B2A4D80397F9F508B97EB893ED7AAF37F80410D12E",
-      "patched_bytes": 205115,
-      "patched_sha256": "3B442C509ACAAE914B5397585C4BEBD3F7E8CF152F841E7A25784E7934E3A887"
+      "patched_bytes": 205459,
+      "patched_sha256": "FEE1E2C62E3F7C20F406DC31964F9E1E86C0F8B0553EEC4C97D94583F2AE25EA"
     },
     {
       "path": "indicator/location_title/location_title_09.arc.cmp",
@@ -9926,8 +9968,8 @@
       "path": "indicator/menu/menu_equip.arc.cmp",
       "source_bytes": 34507,
       "source_sha256": "CD32B6B252A00A1FD8DA7822EE82F9C89F4C77BC2F993001E34E9E6C8A40F0EB",
-      "patched_bytes": 34901,
-      "patched_sha256": "CFE2CC8C884B04EA9EC03D08FDE8663D2A6F28C781747E03A48B4F1CA633A5D4"
+      "patched_bytes": 34843,
+      "patched_sha256": "62AC18BED77E52B84E642FD529D203E7E2123C50AB3F194528509F9CBF28E25E"
     },
     {
       "path": "indicator/menu/menu_item.arc.cmp",
@@ -9940,15 +9982,15 @@
       "path": "indicator/menu/menu_lapis.arc.cmp",
       "source_bytes": 238610,
       "source_sha256": "269D2FE9A99EF1901C2A88A791B4AF07FD4F854EB4ADC2F24C91667A3AE36D7D",
-      "patched_bytes": 239528,
-      "patched_sha256": "7B0BEE3A6ED0AA55A86594DA63A602F9C98725172A124A9D5CF547C239D948E5"
+      "patched_bytes": 239523,
+      "patched_sha256": "793C107E539D3070D50783E50280954D4A7B4DF8FD9783BC9A754FC32B4F9F79"
     },
     {
       "path": "indicator/menu/menu_option.arc.cmp",
       "source_bytes": 24821,
       "source_sha256": "A89235D22C9854473C79740CDB4A6BF39AC4CBB8989102EF87F73A689FC038BA",
-      "patched_bytes": 25154,
-      "patched_sha256": "F17FF87927F08D0CF76AC428EB4C4BD9A049B29F365999D950DB9DF794B3FA87"
+      "patched_bytes": 25961,
+      "patched_sha256": "73914E2B3AE52AEE95EF74607B7E422AF5FE5B868B17F7BDF732C3C1E3CD2B5F"
     },
     {
       "path": "indicator/menu/menu_top.arc.cmp",
@@ -10017,8 +10059,8 @@
       "path": "indicator/title/title_up.arc.cmp",
       "source_bytes": 349035,
       "source_sha256": "9F952BCB123B53FF13850A023761FD17F0B79DAC203AEAA1A12472703BE414C6",
-      "patched_bytes": 353872,
-      "patched_sha256": "3C690F64183E338B6E7BA084918F9A8FD414E70669BD4D947C91D2CFE6AD0B13"
+      "patched_bytes": 357664,
+      "patched_sha256": "F4907B86CBDCEA3B9C5C0FB1CEA93D18C8DA38CB9EE308DE5ED8BEFB4F60F1D4"
     },
     {
       "path": "indicator/tune/tune_result.arc.cmp",
@@ -10080,8 +10122,8 @@
       "path": "param/ablity_param.str",
       "source_bytes": 23722,
       "source_sha256": "6B4C995EB68D15ADAAF5583504B8BCD3721365DA0BCFB929519388ED4BB4D71C",
-      "patched_bytes": 15152,
-      "patched_sha256": "94E9557C5F59CFC31049F18EB1B74A1591F2C656911D6AF61CA0647FB206CE1A"
+      "patched_bytes": 15138,
+      "patched_sha256": "314374D30188BE4F4B217A77C8F09B7A36B50008703537493805CD96AFB177F4"
     },
     {
       "path": "param/advsys_param.str",
@@ -10129,8 +10171,8 @@
       "path": "param/ind_param.str",
       "source_bytes": 14240,
       "source_sha256": "2CF13BC46B30809A2CD8F7FC5ECC2830EDEF6478F4EA1791CCCECB9D94F347E6",
-      "patched_bytes": 7274,
-      "patched_sha256": "C59AC7BA007510CCD8B7854B4656DA5897BEFCE9D75F63A7A2E355F4885E884B"
+      "patched_bytes": 7306,
+      "patched_sha256": "D27190270F008F80C31614E044D88CDF767053AA055A271BE986EE4FB0388ABB"
     },
     {
       "path": "param/item_param.str",
@@ -10171,8 +10213,8 @@
       "path": "param/skill_param.str",
       "source_bytes": 45178,
       "source_sha256": "4ACB4434C4F65F443CEAF940CE5CD610B733CD9410EC5F10A98502AC377498EB",
-      "patched_bytes": 26370,
-      "patched_sha256": "BE2C01B41B324370F9A905D567A0E2ADA7F36EC77A862F5507F9A5C1171B8E40"
+      "patched_bytes": 25436,
+      "patched_sha256": "ABE200EB967A200CFD9D8F15836E015B21DE332944D7D699665E87AD8CC239A6"
     },
     {
       "path": "param/tune_param.str",
