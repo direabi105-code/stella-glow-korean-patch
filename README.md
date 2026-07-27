@@ -1,12 +1,12 @@
-﻿# Stella Glow 한국어 패치 v30
+# Stella Glow 한국어 패치 v31
 
 Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 한국어 LayeredFS 패치입니다.
 
 - 대상 Title ID: `0004000000173700`
-- 최신 버전: **v30**
+- 최신 버전: **v31**
 - 기준 원본 CIA SHA-256: `9388921B8209F8F2741916335A33EDF0D661BE8F1450CAF38314D7EF309437C9`
-- 패치 파일: 1,461개
-- 패치 데이터: 약 20.6 MB
+- 패치 파일: RomFS 1,467개 + `code.ips` 1개
+- 패치 데이터: 약 21.2 MB
 - 완성 CIA와 원본 게임 데이터 전체는 포함하지 않습니다.
 
 ## 지원 범위
@@ -15,9 +15,12 @@ Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 �
 - 인물·지명·아이템·스킬·프로필 문자열 교정
 - 한글 폰트와 문자 폭·명도 조정
 - 메뉴·전투·상점·저장 화면 등 안전한 범위의 UI 한국어화
-- v30까지 확인된 오역, 표기 통일, 숫자·기호 간격 및 UI 잘림 개선
-- 전투 상태·시작·결과·세계 지도용 이미지 문자열 54개 추가 한국어화
-- 상태 아이콘의 색과 윤곽을 보존하고 `바람+`, `땅+`의 영문 잔여 획 제거
+- v31까지 확인된 오역, 표기 통일, 숫자·기호 간격 및 UI 잘림 개선
+- 전투 상태·시작·결과·세계 지도용 이미지 문자열 추가 한국어화
+- 폰트 개선 이전에 축약했던 대사를 의미 보존형 문장으로 복원
+- 대사 한글 본문 획의 불투명도와 흐린 구성요소 보정
+- 아이템·오브 설명을 실제 런타임 수치와 일치시키고 적 이름의 일반명사를 한국어화
+- 사용자 확정 스킬·상태이상 수치 조정
 
 ## Luma3DS 설치
 
@@ -36,11 +39,13 @@ luma/titles/0004000000173700/romfs
 
 1. Azahar의 게임 목록에서 Stella Glow를 우클릭합니다.
 2. 모드 데이터 위치를 엽니다.
-3. 이 패치의 `romfs` 폴더 내용을 해당 타이틀의 모드 RomFS 위치에 복사합니다.
-4. 기존 구버전 패치가 있다면 혼합하지 말고 교체합니다.
-5. 게임을 실행합니다.
+3. 기존 구버전 패치가 있다면 혼합하지 말고 교체합니다.
+4. `luma/titles/0004000000173700/romfs`의 내용을 해당 타이틀의 모드 RomFS 위치에 복사합니다.
+5. 같은 타이틀 폴더의 `code.ips`도 RomFS의 상위 타이틀 폴더에 복사합니다.
+6. 게임을 실행합니다.
 
-완성된 CIA가 필요한 경우에는 사용자가 보유한 원본을 직접 추출하여 패치하거나, 제공된 LayeredFS 형식으로 실행하십시오.
+완성된 CIA가 필요한 경우에는 사용자가 보유한 원본을 직접 추출하여 패치하거나,
+제공된 LayeredFS 형식으로 실행하십시오.
 
 ## 무결성 확인
 
@@ -50,7 +55,8 @@ PowerShell에서 다음 명령을 실행합니다.
 powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 ```
 
-검증기는 `metadata/patch_manifest_v30.json`에 기록된 1,461개 파일의 크기와 SHA-256을 확인합니다.
+검증기는 `metadata/patch_manifest_v31.json`에 기록된 RomFS 1,467개와
+`code.ips` 1개의 크기 및 SHA-256을 확인합니다.
 
 ## 알려진 사항
 
@@ -61,8 +67,9 @@ powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 ## 구성
 
 ```text
-luma/titles/0004000000173700/romfs/  패치 파일
-metadata/patch_manifest_v30.json    파일별 원본/패치 해시
-verify_patch.ps1                    패치 무결성 검사
-CHANGELOG.md                        변경 기록
+luma/titles/0004000000173700/romfs/   패치 파일
+luma/titles/0004000000173700/code.ips ExeFS 문자열 패치
+metadata/patch_manifest_v31.json      파일별 원본/패치 해시
+verify_patch.ps1                      패치 무결성 검사
+CHANGELOG.md                          변경 기록
 ```
