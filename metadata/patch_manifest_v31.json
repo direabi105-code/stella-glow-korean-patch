@@ -1,14 +1,14 @@
 {
   "schema": "stella-glow-ko-layeredfs-patch/v2",
   "version": "v31",
-  "created_utc": "2026-07-27T07:41:22.431929+00:00",
+  "created_utc": "2026-07-27T17:09:51.994199+00:00",
   "title_id": "0004000000173700",
   "target": "Stella Glow English Undub (CTR-P-BS3E)",
   "source_romfs_file_count": 26997,
   "target_romfs_file_count": 26997,
-  "changed_file_count": 1467,
+  "changed_file_count": 1469,
   "extra_file_count": 1,
-  "patch_payload_bytes": 21169410,
+  "patch_payload_bytes": 21193387,
   "removed_files": [],
   "files": [
     {
@@ -9662,14 +9662,14 @@
       "source_bytes": 271244,
       "source_sha256": "7920651CF7C0335302A4688E83E7D748C42FAD371FB539D604891CF8335DA47D",
       "patched_bytes": 546692,
-      "patched_sha256": "53C0C54856D87AEEB275BC9E759C38EC7B30DFCA17901E68D70214904AE18D4B"
+      "patched_sha256": "1B150556B1CFCDF3938951580376CCB7B49E36688C17AAEAEEE0B12FE24AE3FD"
     },
     {
       "path": "font/font_common2.bffnt",
       "source_bytes": 533388,
       "source_sha256": "C2316AB310A90399B14CB9B9FF119C2A179D08DA14D84BF9E331D164BC2C23CA",
       "patched_bytes": 546692,
-      "patched_sha256": "53C0C54856D87AEEB275BC9E759C38EC7B30DFCA17901E68D70214904AE18D4B"
+      "patched_sha256": "1B150556B1CFCDF3938951580376CCB7B49E36688C17AAEAEEE0B12FE24AE3FD"
     },
     {
       "path": "indicator/bar/bar_down.arc.cmp",
@@ -10025,8 +10025,8 @@
       "path": "indicator/menu/menu_top.arc.cmp",
       "source_bytes": 18519,
       "source_sha256": "CFE5D921FFB076FE61E78668C905ED3EA259E15D89F765C96E82290CBD0872B1",
-      "patched_bytes": 18377,
-      "patched_sha256": "BA228DB8056D921B05122662F021AAE1178A8D3B2142E2D2DDFAA6BD7115F40B"
+      "patched_bytes": 18389,
+      "patched_sha256": "B17F7D6033F58EB3B1BDA8FB5EBA11F8EE69649AE40C67EE3AE1A1CAB00DB1B8"
     },
     {
       "path": "indicator/menu/unit_charabox.arc.cmp",
@@ -10041,6 +10041,20 @@
       "source_sha256": "FD6857DABCE54472EAA8B6019B8CB9DD3E7D1AA7E6F92AC38672C3D94D9B5C31",
       "patched_bytes": 2440,
       "patched_sha256": "D052869D8E26B0CC10207F660656D91D24A0ABECCBF841C00C7709DF5E85D18C"
+    },
+    {
+      "path": "indicator/message_window/message_window.arc.cmp",
+      "source_bytes": 16846,
+      "source_sha256": "5E4CFB6B312645F70BD33BCDE97AAF61B01381EBC91D36BE6C0E49C57255693F",
+      "patched_bytes": 16754,
+      "patched_sha256": "6DE7AF41C1E1345E03099895F15A7F164A4FD407593080642180FCA159868BB1"
+    },
+    {
+      "path": "indicator/message_window/system_window.arc.cmp",
+      "source_bytes": 7377,
+      "source_sha256": "700F900697B1C800F343B747D20812AF935147DD167F5FA754CCB5D792B2D1EC",
+      "patched_bytes": 7211,
+      "patched_sha256": "D47F2F980D2186F3EED73F501A7C5A376348CD3BF35BAD4DFA4E578328D9D127"
     },
     {
       "path": "indicator/popup_window/decide_window.arc.cmp",
@@ -10257,7 +10271,7 @@
       "source_bytes": 45178,
       "source_sha256": "4ACB4434C4F65F443CEAF940CE5CD610B733CD9410EC5F10A98502AC377498EB",
       "patched_bytes": 50154,
-      "patched_sha256": "D0DA1A1F0A6FF3B8FA6F47645492A2DB6E87DB6DA3A34402DC641F3A5DDABBE4"
+      "patched_sha256": "ED71CC50A908BA2334C9D34B1DB706473A94AB9459B64512369BE650FEAF7125"
     },
     {
       "path": "param/tune_param.str",
@@ -10285,8 +10299,7 @@
     {
       "path": "code.ips",
       "bytes": 81,
-      "sha256": "005A423CC7490534F1D74EECA6E9EB8385AF275B4FDC2C2DC32ED341BB6F0F3C",
-      "role": "ExeFS IPS string patch"
+      "sha256": "005A423CC7490534F1D74EECA6E9EB8385AF275B4FDC2C2DC32ED341BB6F0F3C"
     }
   ]
 }

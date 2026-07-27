@@ -7,6 +7,21 @@ $manifest = Get-Content -Raw -LiteralPath $manifestPath | ConvertFrom-Json
 $titleRoot = Join-Path $PackageRoot 'luma\titles\0004000000173700'
 $romfs = Join-Path $titleRoot 'romfs'
 $failed = New-Object System.Collections.Generic.List[string]
+$expectedPaths = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+foreach ($entry in $manifest.files) {
+    [void]$expectedPaths.Add([string]$entry.path)
+}
+$actualPaths = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+foreach ($item in Get-ChildItem -LiteralPath $romfs -Recurse -File) {
+    $relative = $item.FullName.Substring($romfs.Length + 1).Replace('\', '/')
+    [void]$actualPaths.Add($relative)
+    if (-not $expectedPaths.Contains($relative)) {
+        $failed.Add("UNLISTED $relative")
+    }
+}
+if ($actualPaths.Count -ne [int]$manifest.changed_file_count) {
+    $failed.Add("COUNT manifest=$($manifest.changed_file_count) actual=$($actualPaths.Count)")
+}
 foreach ($entry in $manifest.files) {
     $path = Join-Path $romfs ($entry.path -replace '/', '\')
     if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
