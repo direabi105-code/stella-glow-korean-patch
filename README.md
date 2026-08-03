@@ -5,8 +5,8 @@ Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 �
 - 대상 Title ID: `0004000000173700`
 - 최신 버전: **v31**
 - 기준 원본 CIA SHA-256: `9388921B8209F8F2741916335A33EDF0D661BE8F1450CAF38314D7EF309437C9`
-- 패치 파일: RomFS 1,467개 + `code.ips` 1개
-- 패치 데이터: 약 21.2 MB
+- 패치 파일: RomFS 1,470개 + `code.ips` 1개
+- 패치 데이터: 21,196,253 bytes
 - 완성 CIA와 원본 게임 데이터 전체는 포함하지 않습니다.
 
 ## 지원 범위
@@ -21,6 +21,9 @@ Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 �
 - 대사 한글 본문 획의 불투명도와 흐린 구성요소 보정
 - 아이템·오브 설명을 실제 런타임 수치와 일치시키고 적 이름의 일반명사를 한국어화
 - 사용자 확정 스킬·상태이상 수치 조정
+- HP/SP·문장부호·괄호·영문 글자의 자간 회귀를 정규화하고 검증 단계에서 차단
+- 상태이상·강화/약화·오브의 실제 효과 설명을 보강하고 도움말 표시 영역을 확장
+- 불·물·바람·땅 강화와 HP 재생 전투 라벨을 속성별 색상으로 구분
 
 ## Luma3DS 설치
 
@@ -55,7 +58,7 @@ PowerShell에서 다음 명령을 실행합니다.
 powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 ```
 
-검증기는 `metadata/patch_manifest_v31.json`에 기록된 RomFS 1,467개와
+검증기는 `metadata/patch_manifest_v31.json`에 기록된 RomFS 1,470개와
 `code.ips` 1개의 크기 및 SHA-256을 확인합니다.
 
 ## 알려진 사항
