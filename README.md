@@ -1,4 +1,10 @@
-﻿# Stella Glow 한국어 패치 v30
+# Stella Glow 한국어 패치 v30
+
+<p align="center">
+  <img src="docs/images/stella-glow-10th-anniversary.png" alt="Stella Glow 10th anniversary artwork" width="100%">
+</p>
+
+> 게임 이미지와 로고의 권리는 각 권리자에게 있습니다. 자세한 내용은 [제3자 자산 및 권리 고지](ASSET_NOTICE.md)를 확인하십시오.
 
 Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 한국어 LayeredFS 패치입니다.
 영문판 Undub을 선택해서 패치한 이유는 영문판을 대상으로 하면 영어 음성과 일본어 음성 양쪽을 선택 가능하기 때문입니다.
