@@ -58,4 +58,4 @@ if ($failed.Count -gt 0) {
     $failed | ForEach-Object { Write-Error $_ }
     throw "Patch verification failed: $($failed.Count) file(s)"
 }
-Write-Host "PASS: $($manifest.changed_file_count) RomFS + $($manifest.extra_file_count) extra v31 patch files verified."
+Write-Host "PASS: $($manifest.changed_file_count) RomFS + $($manifest.extra_file_count) extra v31.1 patch files verified."
