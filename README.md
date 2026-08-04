@@ -13,7 +13,7 @@ Nintendo 3DS용 **Stella Glow 영어판 Undub**(`CTR-P-BS3E`)에 적용하는 �
 - 대상 Title ID: `0004000000173700`
 - 최신 버전: **v31**
 - 기준 원본 CIA SHA-256: `9388921B8209F8F2741916335A33EDF0D661BE8F1450CAF38314D7EF309437C9`
-- 패치 파일: RomFS 1,470개 + `code.ips` 1개
+- 패치 파일: RomFS 1,470개
 - 패치 데이터: 21,196,253 bytes
 - 완성 CIA와 원본 게임 데이터 전체는 포함하지 않습니다.
 
@@ -52,8 +52,10 @@ luma/titles/0004000000173700/romfs
 2. 모드 데이터 위치를 엽니다.
 3. 기존 구버전 패치가 있다면 혼합하지 말고 교체합니다.
 4. `luma/titles/0004000000173700/romfs`의 내용을 해당 타이틀의 모드 RomFS 위치에 복사합니다.
-5. 같은 타이틀 폴더의 `code.ips`도 RomFS의 상위 타이틀 폴더에 복사합니다.
-6. 게임을 실행합니다.
+5. 게임을 실행합니다.
+
+이전 버전에서 안내했던 `code.ips`는 배포에서 제외되었습니다.
+구버전을 설치한 적이 있다면 모드 폴더에 남은 `code.ips`를 삭제하십시오.
 
 완성된 CIA가 필요한 경우에는 사용자가 보유한 원본을 직접 추출하여 패치하거나,
 제공된 LayeredFS 형식으로 실행하십시오.
@@ -66,8 +68,8 @@ PowerShell에서 다음 명령을 실행합니다.
 powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 ```
 
-검증기는 `metadata/patch_manifest_v31.json`에 기록된 RomFS 1,470개와
-`code.ips` 1개의 크기 및 SHA-256을 확인합니다.
+검증기는 `metadata/patch_manifest_v31.json`에 기록된 RomFS 1,470개의
+크기 및 SHA-256을 확인합니다.
 
 ## 알려진 사항
 
@@ -80,7 +82,6 @@ powershell -ExecutionPolicy Bypass -File .\verify_patch.ps1
 
 ```text
 luma/titles/0004000000173700/romfs/   패치 파일
-luma/titles/0004000000173700/code.ips ExeFS 문자열 패치
 metadata/patch_manifest_v31.json      파일별 원본/패치 해시
 verify_patch.ps1                      패치 무결성 검사
 CHANGELOG.md                          변경 기록

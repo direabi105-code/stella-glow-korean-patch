@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "applied": true,
+  "installed": true,
+  "fields": 22,
+  "files": 21,
+  "file_sizes_preserved": true,
+  "terminator_offsets_preserved": true,
+  "changes": [
+    {
+      "file": "EV00_03_0630B.flw",
+      "offset": 1052,
+      "capacity": 41,
+      "source": "Ngh... Guh... Ugh...\r\n*pant* Aaaaaagh...!",
+      "translation": "읏... 크... 윽......\r\n하아... 아아악...!",
+      "padding_spaces": 9,
+      "status": "patched"
+    },
+    {
+      "file": "EV05_03_1600C.flw",
+      "offset": 8824,
+      "capacity": 33,
+      "source": "What a shame. Your Earth Witch...",
+      "translation": "안됐군. 너희 땅의 마녀는...",
+      "padding_spaces": 16,
+      "status": "patched"
+    },
+    {
+      "file": "EV05_04_0010D.flw",
+      "offset": 2228,
+      "capacity": 26,
+      "source": "I need... to get to Mordi¶",
+      "translation": "모르디에게... 가야 해¶",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV05_04_0100D.flw",
+      "offset": 24104,
+      "capacity": 26,
+      "source": "I need... to get to Mordi¶",
+      "translation": "모르디에게... 가야 해¶",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV06_02_0400D.flw",
+      "offset": 28668,
+      "capacity": 57,
+      "source": "I agree with Popo.\r\nLisette, sleep in Alto's bed tonight.",
+      "translation": "포포 말이 맞아.\r\n리제트, 오늘은 알토 침대에서 자.",
+      "padding_spaces": 27,
+      "status": "patched"
+    },
+    {
+      "file": "EV06_03_1410D.flw",
+      "offset": 4216,
+      "capacity": 35,
+      "source": "Oh... I get it. I understand now...",
+      "translation": "아... 알겠어. 이제야 깨달았어...",
+      "padding_spaces": 14,
+      "status": "patched"
+    },
+    {
+      "file": "EV08_01_2400D.flw",
+      "offset": 18768,
+      "capacity": 55,
+      "source": "...Commander Klaus...? Why...?\r\nNo, this has to be a...",
+      "translation": "...클라우스 대장...? 왜...?\r\n아니, 이건 분명...",
+      "padding_spaces": 21,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_01_0600D.flw",
+      "offset": 968,
+      "capacity": 19,
+      "source": "Welcome to my soul.",
+      "translation": "내 마음속에 온 걸 환영해.",
+      "padding_spaces": 4,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_01_1300C.flw",
+      "offset": 6156,
+      "capacity": 8,
+      "source": "This is¶",
+      "translation": "여기는――¶",
+      "padding_spaces": 2,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_01_2200D.flw",
+      "offset": 5792,
+      "capacity": 16,
+      "source": "Wh-What is this?",
+      "translation": "뭐, 뭐야... 이건...?",
+      "padding_spaces": 1,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_05_0600D.flw",
+      "offset": 6680,
+      "capacity": 25,
+      "source": "Wow, Popo, that was cool!",
+      "translation": "언니! 정말 대단해!",
+      "padding_spaces": 14,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_09_2700D.flw",
+      "offset": 3988,
+      "capacity": 14,
+      "source": "It's tea time!",
+      "translation": "차 마실 시간이야!",
+      "padding_spaces": 4,
+      "status": "patched"
+    },
+    {
+      "file": "EV10_09_2700D.flw",
+      "offset": 4992,
+      "capacity": 33,
+      "source": "Hmmm... she's not here, either...",
+      "translation": "음... 여기도 없네...",
+      "padding_spaces": 19,
+      "status": "patched"
+    },
+    {
+      "file": "EV11_03_1000D.flw",
+      "offset": 4616,
+      "capacity": 9,
+      "source": "Marie...?",
+      "translation": "마리...?",
+      "padding_spaces": 3,
+      "status": "patched"
+    },
+    {
+      "file": "EV12_01_0000D.flw",
+      "offset": 1528,
+      "capacity": 11,
+      "source": "Alto! Alto!",
+      "translation": "알토...! 알토!",
+      "padding_spaces": 1,
+      "status": "patched"
+    },
+    {
+      "file": "EV12_03_0000D.flw",
+      "offset": 14696,
+      "capacity": 20,
+      "source": "I can't accept that.",
+      "translation": "그건 받아들일 수 없어.",
+      "padding_spaces": 7,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_01_1910D.flw",
+      "offset": 1068,
+      "capacity": 26,
+      "source": "Damn it... It didn't work!",
+      "translation": "젠장... 실패했나...!",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_02_2310D.flw",
+      "offset": 1068,
+      "capacity": 26,
+      "source": "Damn it... It didn't work!",
+      "translation": "젠장... 실패했나...!",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_03_1400D.flw",
+      "offset": 2712,
+      "capacity": 42,
+      "source": "Why are you trying to stop me...?\r\nWhy...?",
+      "translation": "왜 방해하는 거야...?\r\n왜...?",
+      "padding_spaces": 22,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_03_3110D.flw",
+      "offset": 1068,
+      "capacity": 26,
+      "source": "Damn it... It didn't work!",
+      "translation": "젠장... 실패했나...!",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_04_2310D.flw",
+      "offset": 1068,
+      "capacity": 26,
+      "source": "Damn it... It didn't work!",
+      "translation": "젠장... 실패했나...!",
+      "padding_spaces": 12,
+      "status": "patched"
+    },
+    {
+      "file": "EV13_05_2310D.flw",
+      "offset": 1068,
+      "capacity": 26,
+      "source": "Damn it... It didn't work!",
+      "translation": "젠장... 실패했나...!",
+      "padding_spaces": 12,
+      "status": "patched"
+    }
+  ],
+  "hashes": {
+    "EV00_03_0630B.flw": "622CEC01851CAA07F8B657D0CD6B2D8DD7067FB0605B7D69B6386C59730C77E3",
+    "EV05_03_1600C.flw": "210E9C5D890CCC564F5B24D799D646DFA9FEA889ECF5265701CD63CF03212F25",
+    "EV05_04_0010D.flw": "F80ED68B677BD2D2D7F5E22955C376CFC2C8200B4EC7CD223FC8086778AFEA97",
+    "EV05_04_0100D.flw": "35933734749F7D86ABC98A0BCC2167351523C6F9DFF6ED915B5A0A7FC6C201DB",
+    "EV06_02_0400D.flw": "A97C1675796C5B6282B028DC5A0EF934EB4B5BA2FBE71A9534D73C27C531D4DD",
+    "EV06_03_1410D.flw": "285D9C747F6BC9640D663149160C3572DFCF1AD58257797B9C011E91BE1748F0",
+    "EV08_01_2400D.flw": "E78DC5ED22EA4608FE49329D3835F78B7471FC07834F8CBDACBA0E8F4246C798",
+    "EV10_01_0600D.flw": "68956829AAA2B6F7D27A59901CDC3DE48666AAF65554547546F34F024DA2D236",
+    "EV10_01_1300C.flw": "D379242D19B5E01CB854B366FB90E4D8FBE2C9EABF52CD9A92F8066444C11D1E",
+    "EV10_01_2200D.flw": "EABB39CB384513D675C73F300C08FD8F98C0C12E4A92C4D35342D52987ED4200",
+    "EV10_05_0600D.flw": "B39AAB93C3359E276DF955895032834484FDC12628C55EEE1FF1DAD22D47BFCB",
+    "EV10_09_2700D.flw": "7CCDEE0903E11B9F4AD6BED50AF9528CA65A94205A6ACD14D68AFE3179F9C65E",
+    "EV11_03_1000D.flw": "3021D7B5B2FAC631241D3BD14FF5404FF79017702069B8C7C75A8CC24F37042F",
+    "EV12_01_0000D.flw": "34232FDDEE8F96C50939B1113B7BBBAF3AB73D79E44914B0B33BCE45BC746697",
+    "EV12_03_0000D.flw": "ED264010B861B0B5F474090209779C5F8D63C186A948773EF8234BCB1B427CB5",
+    "EV13_01_1910D.flw": "F4D2FCC2A6BD921B6F346596097C3B9D74F3186A19BFF39464638FB106497E68",
+    "EV13_02_2310D.flw": "D59BBD9073357C26C92B27D49C895456BABFE931BCAB7916857B16E7FB8B8321",
+    "EV13_03_1400D.flw": "6D0333AB2922370D3CC0A4E904448652D7C3853D35BA7D332E3D4C182C584AB6",
+    "EV13_03_3110D.flw": "C65921084AA65A354C3EFD904FC0C589A8D1766A00D640A8F4827E3C44B12BF8",
+    "EV13_04_2310D.flw": "C0E682988068B4AABA0469EFA6C234A3EA93BB22576E6B02280C4DAFC9BBD19B",
+    "EV13_05_2310D.flw": "633359FAFE2BD6E58B11FB9093F42E8CA307F0F82DE2C628073D44BD866C2E24"
+  }
+}
